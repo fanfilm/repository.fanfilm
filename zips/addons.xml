@@ -2,7 +2,7 @@
 <addon id="plugin.video.fanfilm" name="FanFilm" version="2019.06.01.4" provider-name="-">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.ptw"/>
+        <import addon="script.module.ptw" version="2019.04.28.0"/>
         <import addon="script.module.requests"/>
         <import addon="script.module.metahandler"/>
         <import addon="script.module.beautifulsoup4"/>
