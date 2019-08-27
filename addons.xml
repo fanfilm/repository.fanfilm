@@ -1,0 +1,25 @@
+<addons>
+<addon id="plugin.video.fanfilm" name="FanFilm" version="2019.06.01.4" provider-name="-">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.ptw"/>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.metahandler"/>
+        <import addon="script.module.beautifulsoup4"/>
+        <import addon="script.module.future"/>
+        <import addon="plugin.video.youtube" optional="true"/>
+        <import addon="script.module.resolveurl"/>
+        <import addon="script.fanfilm.media" version="2019.01.26"/>
+        <import addon="script.fanfilm.metadata"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="pl">FanFilm</summary>
+        <description lang="pl">Plugin z filmami i serialami</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+</addons>
