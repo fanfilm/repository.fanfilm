@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.fanfilm.media" version="2019.03.30.0" name="FanFilm Themepak" provider-name="-" >
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the FanFilm Addon</summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
