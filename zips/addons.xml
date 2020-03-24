@@ -36,7 +36,7 @@
 		<summary lang="en">PTW</summary>
 	</extension>
 </addon>
-<addon id="script.module.resolveurl" name="ResolveURL" version="6.4.94" provider-name="jsergio">
+<addon id="script.module.resolveurl" name="ResolveURL" version="6.4.105" provider-name="jsergio">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="plugin.video.youtube" optional="true" />
