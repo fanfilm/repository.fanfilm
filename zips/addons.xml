@@ -11,6 +11,7 @@
         <import addon="script.module.resolveurl"/>
         <import addon="script.fanfilm.media" version="2019.01.26"/>
         <import addon="script.fanfilm.metadata"/>
+        <import addon="script.module.six" version="1.13.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -44,6 +45,7 @@
         <import addon="script.module.cryptopy" version="1.2.6" optional="true" />
         <import addon="plugin.video.gdrive" optional="true" />
         <import addon="script.module.requests"/>
+        <import addon="script.module.six" version="1.13.0"/>
     </requires>
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.python.pluginsource" library="lib/default.py" />
@@ -78,5 +80,21 @@
 		<description>Metadata for fanfilm are maintained separately to make distribution of the the addon itself easier/faster.</description>
 		<platform>all</platform>
 	</extension>
+</addon>
+<addon id="script.module.six" name="six" version="1.13.0" provider-name="gutworth">
+  <requires>
+    <import addon="xbmc.python"
+            version="2.14.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Python 2 and 3 compatibility utilities.</summary>
+    <description lang="en">Six is a Python 2 and 3 compatibility library. It provides utility functions for smoothing over the differences between the Python versions with the goal of writing Python code that is compatible on both Python versions. See the documentation for more information on what is provided.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <source>https://pypi.org/project/six/</source>
+    <website>https://pypi.org/project/six/</website>
+  </extension>
 </addon>
 </addons>
