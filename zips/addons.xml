@@ -30,6 +30,9 @@
 		<import addon="script.module.requests"/>
 		<import addon="script.module.resolveurl"/>
         <import addon="script.module.pyxbmct" />
+        <import addon="script.module.tzlocal"/>
+        <import addon="script.module.js2py"/>
+        <import addon="script.module.pyjsparser"/>
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
