@@ -49,6 +49,9 @@
         <import addon="plugin.video.gdrive" optional="true" />
         <import addon="script.module.requests"/>
         <import addon="script.module.six" version="1.13.0"/>
+        <import addon="script.module.tzlocal"/>
+        <import addon="script.module.js2py"/>
+        <import addon="script.module.pyjsparser"/>
     </requires>
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.python.pluginsource" library="lib/default.py" />
