@@ -32,7 +32,7 @@
         <import addon="script.module.pyxbmct" />
         <import addon="script.module.tzlocal"/>
         <import addon="script.module.js2py"/>
-        <import addon="script.module.pyjsparser"/>
+        <import addon="script.module.pyjsparser" version="2.7.2"/>
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
@@ -51,7 +51,7 @@
         <import addon="script.module.six" version="1.13.0"/>
         <import addon="script.module.tzlocal"/>
         <import addon="script.module.js2py"/>
-        <import addon="script.module.pyjsparser"/>
+        <import addon="script.module.pyjsparser" version="2.7.2"/>
     </requires>
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.python.pluginsource" library="lib/default.py" />
@@ -166,7 +166,7 @@
     </assets>
   </extension>
 </addon>
-<addon id="script.module.pyjsparser" name="pyjsparser" version="2.7.1" provider-name="Addons4Kodi">
+<addon id="script.module.pyjsparser" name="pyjsparser" version="2.7.2" provider-name="Addons4Kodi">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
   </requires>
