@@ -103,7 +103,7 @@
     <website>https://pypi.org/project/six/</website>
   </extension>
 </addon>
-<addon id="script.module.js2py" name="js2py" version="0.6.6" provider-name="Addons4Kodi">
+<addon id="script.module.js2py" name="js2py" version="0.6.7" provider-name="Addons4Kodi">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
     <import addon="script.module.six" version="1.11.0"/>
