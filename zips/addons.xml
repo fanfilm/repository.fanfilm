@@ -1,5 +1,5 @@
 <addons>
-<addon id="plugin.video.fanfilm" name="FanFilm" version="2021.02.07.0" provider-name="-">
+<addon id="plugin.video.fanfilm" name="FanFilm" version="2021.03.07.0" provider-name="-">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.ptw" version="2019.04.28.0"/>
@@ -24,21 +24,21 @@
     </extension>
 </addon>
 <addon id="script.module.ptw" name="PTW Module" version="2019.04.28.0" provider-name="PTW">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.module.beautifulsoup4"/>
-		<import addon="script.module.requests"/>
-		<import addon="script.module.resolveurl"/>
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.beautifulsoup4"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.resolveurl"/>
         <import addon="script.module.pyxbmct" />
         <import addon="script.module.tzlocal"/>
         <import addon="script.module.js2py"/>
         <import addon="script.module.pyjsparser" version="2.7.2"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">PTW</summary>
-	</extension>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">PTW</summary>
+  </extension>
 </addon>
 <addon id="script.module.resolveurl" name="ResolveURL" version="6.4.168" provider-name="jsergio">
     <requires>
@@ -65,27 +65,27 @@
         <description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
     </extension>
 </addon>
-<addon id="script.fanfilm.media" version="2019.08.31.0" name="FanFilm Themepak" provider-name="-" >
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Themes for the FanFilm Addon</summary>
-		<description></description>
-		<platform>all</platform>
-	</extension>
+<addon id="script.fanfilm.media" version="2021.03.06.0" name="FanFilm Themepak" provider-name="-" >
+  <requires>
+    <import addon="xbmc.python" version="2.19.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Themes for the FanFilm Addon</summary>
+    <description></description>
+    <platform>all</platform>
+  </extension>
 </addon>
 <addon id="script.fanfilm.metadata" version="2018.07.17.0" name="FanFilm Metadata" provider-name="fanfilm">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Metadata for the fanfilm Addon</summary>
-		<description>Metadata for fanfilm are maintained separately to make distribution of the the addon itself easier/faster.</description>
-		<platform>all</platform>
-	</extension>
+  <requires>
+    <import addon="xbmc.python" version="2.19.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Metadata for the fanfilm Addon</summary>
+    <description>Metadata for fanfilm are maintained separately to make distribution of the the addon itself easier/faster.</description>
+    <platform>all</platform>
+  </extension>
 </addon>
 <addon id="script.module.six" name="six" version="1.13.0" provider-name="gutworth">
   <requires>

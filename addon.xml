@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+	<addon id="repository.fanfilm" name="FanFilm repo" version="0.1" provider-name="fanfilm">
+		<extension point="xbmc.addon.repository" name="FanFilm repo">
+			<info compressed="false">https://raw.githubusercontent.com/fanfilm/repository.fanfilm/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/fanfilm/repository.fanfilm/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/fanfilm/repository.fanfilm/master/zips</datadir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>Repozytorium wtyczki FanFilm</summary>
+			<description>MrKnow tribute...</description>
+			<platform>all</platform>
+		</extension>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>			
+        </assets>			
+</addon>
