@@ -26,29 +26,6 @@
     </extension>
     <reuselanguageinvoker>true</reuselanguageinvoker>
 </addon>
-<addon id="plugin.program.PLTW" name="[COLOR limegreen]Polish[/COLOR]Team[COLOR limegreen]Wizard[/COLOR]"
-       version="0.6.3" provider-name="drinfernoo, Anonek">
-    <requires>
-        <import addon="xbmc.python" version="3.0.0"/>
-        <import addon="script.module.requests"/>
-        <import addon="script.module.six"/>
-        <import addon="script.kodi.android.update" optional="true" version="1.1.7"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.service" library="startup.py" start="startup"/>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">[COLOR limegreen]Polish[/COLOR]Team[COLOR limegreen]Wizard[/COLOR]</summary>
-        <platform>all</platform>
-        <reuselanguageinvoker>false</reuselanguageinvoker>
-        <source>https://www.github.com/drinfernoo/plugin.program.openwizard/</source>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon>
 <addon id="script.module.ptw" name="PTW Module" version="2021.03.06.0" provider-name="PTW">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
