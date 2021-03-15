@@ -183,14 +183,14 @@
     <email></email>
   </extension>
 </addon>
-<addon id="repository.fanfilm" name="FanFilm repo" version="0.7" provider-name="fanfilm">
+      <addon id="repository.fanfilm" name="FanFilm repo" version="0.8" provider-name="fanfilm">
       <extension point="xbmc.addon.repository" name="FanFilm repo">
-        <dir maxversion="18.9.0">
+        <dir maxversion="17.9.0">
           <info compressed="false">https://raw.githubusercontent.com/fanfilm/repository.fanfilm/master/zips/addons.xml</info>
           <checksum>https://raw.githubusercontent.com/fanfilm/repository.fanfilm/master/zips/addons.xml.md5</checksum>
           <datadir zip="true">https://raw.github.com/fanfilm/repository.fanfilm/master/zips</datadir>
         </dir>
-        <dir minversion="19.0.0">
+        <dir minversion="18.9.0">
           <info compressed="false">https://raw.githubusercontent.com/fanfilm/repository.fanfilm/master/zips19/addons.xml</info>
           <checksum>https://raw.githubusercontent.com/fanfilm/repository.fanfilm/master/zips19/addons.xml.md5</checksum>
           <datadir zip="true">https://raw.github.com/fanfilm/repository.fanfilm/master/zips19</datadir>
