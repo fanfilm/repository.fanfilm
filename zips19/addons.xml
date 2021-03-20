@@ -1,5 +1,5 @@
 <addons>
-<addon id="plugin.video.fanfilm" name="FanFilm" version="2021.03.13.0" provider-name="-">
+<addon id="plugin.video.fanfilm" name="FanFilm" version="2021.03.18.0" provider-name="-">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.ptw" version="2021.02.28.1"/>
@@ -87,9 +87,9 @@
     <email></email>
   </extension>
 </addon>
-<addon id="script.module.metahandler" 
-     name="metahandler" 
-     version="5.0.0" 
+<addon id="script.module.metahandler"
+     name="metahandler"
+     version="5.0.0"
      provider-name="Eldorado">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
@@ -153,7 +153,7 @@
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>     
+            <fanart>fanart.jpg</fanart>
         </assets>
       </extension>
     </addon>
