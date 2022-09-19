@@ -1,5 +1,5 @@
 <addons>
-<addon id="plugin.video.fanfilm" name="FanFilm" version="2022.07.22.0" provider-name="-">
+<addon id="plugin.video.fanfilm" name="FanFilm" version="2022.09.15.0" provider-name="-">
 <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.ptw" version="2021.03.20.0"/>
@@ -26,7 +26,7 @@
     </extension>
     <reuselanguageinvoker>true</reuselanguageinvoker>
 </addon>
-<addon id="script.module.ptw" name="PTW Module" version="2022.08.24.0" provider-name="PTW">
+<addon id="script.module.ptw" name="PTW Module" version="2022.09.15.0" provider-name="PTW">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.beautifulsoup4"/>
