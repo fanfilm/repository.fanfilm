@@ -1,5 +1,5 @@
 <addons>
-<addon id="plugin.video.fanfilm" name="FanFilm" version="2022.10.02.0" provider-name="-">
+<addon id="plugin.video.fanfilm" name="FanFilm" version="2022.10.02.1" provider-name="-">
 <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.ptw" version="2021.03.20.0"/>
