@@ -129,7 +129,7 @@
     <email></email>
   </extension>
 </addon>
-<addon id="repository.fanfilm" name="FanFilm repo" version="0.8" provider-name="fanfilm">
+<addon id="repository.fanfilm" name="FanFilm repo" version="0.9" provider-name="fanfilm">
       <extension point="xbmc.addon.repository" name="FanFilm repo">
         <dir maxversion="18.9.0">
           <info compressed="false">https://raw.githubusercontent.com/fanfilm/repository.fanfilm/master/zips/addons.xml</info>
@@ -145,6 +145,16 @@
           <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
           <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
           <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+        </dir>
+         <dir minversion="18.9.701" maxversion="19.8.999">
+            <info compressed="false">https://zip.libka.pl/dists/main/19/addons.xml</info>
+            <checksum>https://zip.libka.pl/dists/main/19/addons.xml.md5</checksum>
+            <datadir zip="true">https://zip.libka.pl/pool/19/</datadir>
+        </dir>
+        <dir minversion="19.9">
+            <info compressed="false">https://zip.libka.pl/dists/main/20/addons.xml</info>
+            <checksum>https://zip.libka.pl/dists/main/20/addons.xml.md5</checksum>
+            <datadir zip="true">https://zip.libka.pl/pool/20/</datadir>
         </dir>
       </extension>
       <extension point="xbmc.addon.metadata">
