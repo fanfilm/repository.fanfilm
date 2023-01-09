@@ -1,17 +1,19 @@
 <addons>
-<addon id="plugin.video.fanfilm" name="FanFilm" version="2022.12.28.1" provider-name="-">
-<requires>
+<addon id="plugin.video.fanfilm" name="FanFilm" version="2023.01.06.0" provider-name="-">
+    <requires>
         <import addon="xbmc.python" version="3.0.0"/>
-        <import addon="script.module.ptw" version="2021.03.20.0"/>
+        <import addon="script.module.ptw" version="2023.01.06.0"/>
         <import addon="script.module.requests"/>
         <import addon="script.module.metahandler" version="5.0.0"/>
         <import addon="script.module.beautifulsoup4"/>
         <import addon="script.module.future"/>
-        <import addon="plugin.video.youtube"/>
+        <import addon="plugin.video.youtube" optional="true"/>
         <import addon="script.module.resolveurl"/>
-        <import addon="script.fanfilm.media" version="2021.03.07.1"/>
+        <import addon="script.module.six"/>
+        <import addon="script.module.kodi-six"/>
+        <import addon="script.module.kover" version="0.0.6"/>
+        <import addon="script.fanfilm.media" version="2022.12.29.0"/>
         <import addon="script.fanfilm.metadata" version="2021.03.07.0"/>
-        <import addon="script.module.kover"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -27,16 +29,19 @@
     </extension>
     <reuselanguageinvoker>true</reuselanguageinvoker>
 </addon>
-<addon id="script.module.ptw" name="PTW Module" version="2022.09.30.1" provider-name="PTW">
+<addon id="script.module.ptw" name="PTW Module" version="2023.01.06.0" provider-name="PTW">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.beautifulsoup4"/>
         <import addon="script.module.requests"/>
         <import addon="script.module.resolveurl"/>
+        <import addon="script.module.six"/>
+        <import addon="script.module.kodi-six"/>
         <import addon="script.module.pyxbmct"/>
         <import addon="script.module.future"/>
         <import addon="script.module.js2py" version="0.7.0"/>
-        <import addon="plugin.video.youtube"/>
+        <import addon="plugin.video.youtube" optional="true"/>
+        <import addon="script.module.kover" version="0.0.6"/>
     </requires>
     <extension point="xbmc.python.module" library="lib"/>
     <extension point="xbmc.service" library="service.py" start="startup"/>
@@ -46,7 +51,7 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
     </extension>
 </addon>
-<addon id="script.fanfilm.media" version="2021.03.07.1" name="FanFilm Themepak" provider-name="-">
+<addon id="script.fanfilm.media" version="2022.12.29.0" name="FanFilm Themepak" provider-name="-">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
