@@ -29,7 +29,7 @@
     </extension>
     <reuselanguageinvoker>true</reuselanguageinvoker>
 </addon>
-<addon id="script.module.ptw" name="PTW Module" version="2023.01.06.0" provider-name="PTW">
+<addon id="script.module.ptw" name="PTW Module" version="2023.01.11.0" provider-name="PTW">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.beautifulsoup4"/>
